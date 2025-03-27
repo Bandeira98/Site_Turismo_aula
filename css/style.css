@@ -16,8 +16,12 @@
 }
 
 footer{
-    background-color:#f3e6bc ;
-    text-align: center;
-    padding: 0.3em;
+    background-color:#f3e6bc !important;
+    align-items: center !important;
+    justify-content: center !important;
+    display: flex;
+    padding: 0.3em !important;
+    font-size: 18px !important;/* mudar o tamanho da fonte*/
+    font-weight: bold !important;
 
 }
