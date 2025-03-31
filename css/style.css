@@ -19,9 +19,47 @@ footer{
     background-color:#f3e6bc !important;
     align-items: center !important;
     justify-content: center !important;
-    display: flex;
+    display: flex !important;
     padding: 0.3em !important;
     font-size: 18px !important;/* mudar o tamanho da fonte*/
     font-weight: bold !important;
 
 }
+.divisão{
+    background-color: #f3e6bc !important;
+    text-align: center !important;
+    padding: 0.7em !important;
+
+}
+.sec-pacotes{
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+    justify-content: center !important;
+    margin-bottom: 1% !important;
+
+}
+.card{
+    padding: 1% !important;
+    margin: 0% 0.5% 0.5% !important;
+
+}
+.sec-contato{
+    margin-bottom: 5% !important;
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+}
+.conteudo{
+    padding: 1em !important;
+    margin-top: 1em !important;
+    border-radius: 30px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.txt-icone{
+    font-size: 100%;
+
+}
+
+
