@@ -1,65 +1,118 @@
-.nav-top{
+.nav-top {
+  background-color: #f3e6bc !important;
+}
+.nav-link {
+  background-color: #eee0b9 !important;
+  margin: 0.3em !important;
+  border-radius: 0.3em !important;
+  font-weight: bold !important; /* para deixa em negrito */
+}
+.btn-primary {
+  background-color: #f5886b !important;
+  border-color: #f5886b !important; /* para mudar a cor da borda*/
+}
+
+footer {
+  background-color: #f3e6bc !important;
+  align-items: center !important;
+  justify-content: center !important;
+  display: flex !important;
+  padding: 0.3em !important;
+  font-size: 18px !important; /* mudar o tamanho da fonte*/
+  font-weight: bold !important;
+}
+.divisão {
+  background-color: #f3e6bc !important;
+  text-align: center !important;
+  padding: 0.7em !important;
+}
+.sec-pacotes {
+  margin-left: 5% !important;
+  margin-right: 5% !important;
+  justify-content: center !important;
+  margin-bottom: 1% !important;
+}
+.card {
+  padding: 1% !important;
+  margin: 0% 0.5% 0.5% !important;
+}
+.sec-contato {
+  margin-bottom: 5% !important;
+  margin-left: 5% !important;
+  margin-right: 5% !important;
+}
+.conteudo {
+  padding: 1em !important;
+  margin-top: 1em !important;
+  border-radius: 30px !important;
+  width: 100% !important;
+  text-align: center !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.txt-icone {
+  font-size: 100% !important;
+  margin-left: 0.8em !important;
+}
+.img-icone {
+  width: 6em !important;
+  margin-left: 0.8em !important;
+}
+.localização {
+  text-align: center !important;
+  justify-items: center !important;
+  display: flex !important;
+  width: 100% !important;
+  height: 18em !important;
+}
+.formulario {
+  padding: 5% !important;
+}
+
+.links {
+  text-align: center;
+  padding: 1em;
+  color: rgb(0, 0, 0);
+}
+
+.mapa {
+  margin-top: 5% !important;
+}
+@media (min-width: 200px) and (max-width: 768px) {
+  .conteudo {
+    text-align: center;
+    margin-left: 10% !important;
+    margin-right: 25% !important;
+    margin-top: 1% !important;
+    margin-bottom: 50% !important;
+  }
+  .sec-contato {
+    margin-bottom: 5% !important;
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+  }
+  .img-icone {
+    width: 3.5em !important;
+  }
+  .txt-icone {
+    text-align: center !important;
+    justify-content: center !important;
+    display: flex !important;
+  }
+  .footer {
     background-color: #f3e6bc !important;
-
-}
-.nav-link{
-    background-color: #eee0b9 !important;
-    margin: 0.3em !important;
-    border-radius: 0.3em !important;
-    font-weight:  bold !important; /* para deixa em negrito */
-    
-    
-}
-.btn-primary{
-    background-color:#f5886b !important;
-    border-color:#f5886b !important;/* para mudar a cor da borda*/
-}
-
-footer{
-    background-color:#f3e6bc !important;
     align-items: center !important;
     justify-content: center !important;
     display: flex !important;
     padding: 0.3em !important;
-    font-size: 18px !important;/* mudar o tamanho da fonte*/
+    font-size: 14px !important; /* mudar o tamanho da fonte*/
     font-weight: bold !important;
-
-}
-.divisão{
-    background-color: #f3e6bc !important;
-    text-align: center !important;
-    padding: 0.7em !important;
-
-}
-.sec-pacotes{
+  }
+  .sec-pacotes {
     margin-left: 5% !important;
     margin-right: 5% !important;
     justify-content: center !important;
     margin-bottom: 1% !important;
-
+  }
 }
-.card{
-    padding: 1% !important;
-    margin: 0% 0.5% 0.5% !important;
-
-}
-.sec-contato{
-    margin-bottom: 5% !important;
-    margin-left: 5% !important;
-    margin-right: 5% !important;
-}
-.conteudo{
-    padding: 1em !important;
-    margin-top: 1em !important;
-    border-radius: 30px;
-    width: 100%;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-}
-.txt-icone{
-    font-size: 100%;
-
-}
-
-
